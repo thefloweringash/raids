@@ -19,7 +19,7 @@
 
 	<boss name="Razorscale" id="33186">
 		<loot name="Ironscale Leggings" id="45307">
-			<assigned list="master" player="Steedee"/>
+			<assigned list="master" player="Schlee"/>
 		</loot>
 		<loot name="Razorscale Talon" id="45298">
 			<disenchanted player="Kleene"/>
