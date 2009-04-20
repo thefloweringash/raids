@@ -1,0 +1,39 @@
+<raid name="Ulduar" mode="normal" id="4273">
+	<roster>
+		<player name="Teylar"/>
+		<player name="Menoheel"/>
+		<player name="Kleene"/>
+		<player name="Goodiemania"/>
+		<player name="Topos"/>
+		<player name="Schlee"/>
+		<player name="Morphism"/>
+		<player name="Steedee"/>
+		<player name="Rejuvinaté"/>
+		<player name="Nurturing"/>
+	</roster>
+
+	<roll-in list="master">
+		<roll player="Rejuvinaté" value="1"/>
+		<roll player="Nurturing" value="2"/>
+	</roll-in>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Ironscale Leggings" id="45307">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Razorscale Talon" id="45298">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Power Enhancing Loop" id="45675">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Conductive Cord" id="45694">
+			<assigned list="master" player="Kleene"/>
+		</loot>
+	</boss>
+
+	<raid-end>People need sleep</raid-end>
+</raid>

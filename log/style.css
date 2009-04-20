@@ -1,0 +1,34 @@
+body {
+  background: black;
+  color : white;
+  margin : 4em;
+}
+
+h2 {
+  text-decoration : underline;
+}
+
+a {
+  color : #0080c0;
+}
+
+* {
+  font-family: Gill sans;
+}
+
+table.difflist {
+  width : 300px;
+  border : 1px solid white;
+}
+
+table.difflist td {
+  text-align: center;
+}
+
+table.difflist td.stationary {
+  background-color : #333333;
+}
+
+table.difflist td.moved {
+  background-color : black;
+}

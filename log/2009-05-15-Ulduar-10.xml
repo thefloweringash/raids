@@ -1,0 +1,44 @@
+<raid name="Ulduar" mode="normal" id="4273">
+	<roster>
+		<player name="Teylar"/>
+		<player name="Hexahedron"/>
+		<player name="Menoheel"/>
+		<player name="Kleene"/>
+		<player name="Goodiemania"/>
+		<player name="Topos"/>
+		<player name="Schlee"/>
+		<player name="Morphism"/>
+		<player name="Kalliste"/>
+		<player name="Steedee"/>
+	</roster>
+
+	<initial-roll-in list="master">
+		<roll player="Teylar" value="98"/>
+		<roll player="Hexahedron" value="93"/>
+		<roll player="Menoheel" value="74"/>
+		<roll player="Kleene" value="73"/>
+		<roll player="Goodiemania" value="54"/>
+		<roll player="Topos" value="54"/>
+		<roll player="Schlee" value="50"/>
+		<roll player="Morphism" value="36"/>
+		<roll player="Kalliste" value="6"/>
+		<roll player="Steedee" value="2"/>
+	</initial-roll-in>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Pyrite Infuser" id="45286">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Combustion Bracers" id="45291">
+			<assigned list="master" player="Teylar"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Pillar of Fortitude" id="46350">
+			<assigned list="master" player="Hexahedron"/>
+		</loot>
+	</trash>
+
+	<raid-end>Server shutdown</raid-end>
+</raid>
