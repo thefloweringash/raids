@@ -1,0 +1,25 @@
+<raid name="Vault of Archavon" mode="normal" id="4603">
+	<roster>
+		<player name="Cinabar"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Schlee"/>
+		<player name="Hexahedron"/>
+		<player name="Kalliste"/>
+		<player name="Steedee"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Emalon the Stone Watcher" id="33993">
+		<loot name="Valorous Deathbringer Leggings" id="45420">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+		<loot name="Valorous Nightsong Gloves" id="45351">
+			<assigned list="master" player="Nurturing"/>
+		</loot>
+	</boss>
+
+	<raid-end>Quick and easy.</raid-end>
+</raid>
