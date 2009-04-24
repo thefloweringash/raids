@@ -1,0 +1,55 @@
+<raid name="Ulduar" mode="normal" id="4273">
+	<roster>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Schlee"/>
+		<player name="Hexahedron"/>
+		<player name="Kalliste"/>
+		<player name="Steedee"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Combustion Bracers" id="45291">
+			<assigned list="master" player="Topos"/>
+		</loot>
+		<!--
+		<loot name="Flamewatch Armguards" id="45283">
+			<assigned nolist="t" player="Steedee"/>
+		</loot>
+		-->
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Treads of the Invader" id="45302">
+			<assigned list="master" player="Menoheel"/>
+		</loot>
+		<loot name="Stormtempered Girdle" id="45304">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+	</boss>
+
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Treacherous Shoulderpads" id="45677">
+			<assigned list="master" player="Morphism"/>
+		</loot>
+		<loot name="Conductive Cord" id="45694">
+			<assigned list="master" player="Hexahedron"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Shoulderguards of the Solemn Watch" id="45697">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Spark of Hope" id="45703">
+			<assigned list="master" player="Topos"/>
+		</loot>
+	</boss>
+
+	<raid-end>Sleep</raid-end>
+</raid>
