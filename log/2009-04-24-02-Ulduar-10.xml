@@ -16,11 +16,9 @@
 		<loot name="Combustion Bracers" id="45291">
 			<assigned list="master" player="Topos"/>
 		</loot>
-		<!--
 		<loot name="Flamewatch Armguards" id="45283">
-			<assigned nolist="t" player="Steedee"/>
+			<donated player="Steedee"/>
 		</loot>
-		-->
 	</boss>
 
 	<boss name="Razorscale" id="33186">

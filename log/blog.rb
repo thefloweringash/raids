@@ -90,6 +90,10 @@ module Templates
          <li><a href="http://www.wowhead.com/?item=<%= de[:item].attributes["id"]%>"
               ><%= de[:item].attributes["name"] %></a> DEd by <%= de[:de].attributes["player"] %></li>
       <% end %>
+      <% for d in donated_items %>
+         <li><a href="http://www.wowhead.com/?item=<%= d[:item].attributes["id"]%>"
+              ><%= d[:item].attributes["name"] %></a> donated to <%= d[:donation].attributes["player"] %></li>
+      <% end %>
     </ul>
   },nil,nil,'_erbout_loot')
 
@@ -145,6 +149,7 @@ ARGV.each do |raidfile|
       changed_lists = []
       won_items = []
       de_items = []
+      donated_items = []
       old_lists = {}
 
       event.elements.each("loot") do |l|
@@ -162,6 +167,9 @@ ARGV.each do |raidfile|
         end
         l.elements.each("disenchanted") do |de|
           de_items << { :item => l, :de => de }
+        end
+        l.elements.each("donated") do |donation|
+          donated_items << { :item => l, :donation => donation }
         end
       end
       if event.name == "boss"
