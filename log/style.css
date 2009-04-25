@@ -25,8 +25,8 @@ table.difflist td {
   text-align: center;
 }
 
-table.difflist td.stationary {
-  background-color : #333333;
+table.difflist td.inactive {
+  background-color : #222222;
 }
 
 table.difflist td.moved {

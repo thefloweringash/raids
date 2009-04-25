@@ -54,10 +54,10 @@ module Templates
       <% for i in 0..new_list.length %>
         <tr>
           <% if old_list[i] == new_list[i] %>
-            <td colspan="2" class="stationary"><%= old_list[i] %></td>
+            <td colspan="2" class="stationary <%= (actives.include? old_list[i]) ? "" : "inactive" %>"><%= old_list[i] %></td>
           <% else %>
-            <td class="moved"><%= old_list[i] %></td>
-            <td class="moved"><%= new_list[i] %></td>
+            <td class="moved <%= (actives.include? old_list[i]) ? "" : "inactive" %>"><%= old_list[i] %></td>
+            <td class="moved <%= (actives.include? new_list[i]) ? "" : "inactive" %>"><%= new_list[i] %></td>
           <% end %>
         </tr>
       <% end %>
