@@ -45,6 +45,10 @@ module Templates
     <% old_list = old_lists[changed_list] %>
     <% new_list = lists[changed_list] %>
     <table class="difflist" cellspacing="0">
+      <tr>
+        <th>Old</th>
+        <th>New</th>
+      </tr>
       <% for i in 0..new_list.length %>
         <tr>
           <% if old_list[i] == new_list[i] %>
