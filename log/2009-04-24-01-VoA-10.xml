@@ -1,4 +1,5 @@
-<raid name="Vault of Archavon" mode="normal" id="4603">
+<raid name="Vault of Archavon" mode="normal" id="4603"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
 	<roster>
 		<player name="Cinabar"/>
 		<player name="Menoheel"/>

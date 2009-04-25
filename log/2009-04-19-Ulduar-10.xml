@@ -1,4 +1,5 @@
-<raid name="Ulduar" mode="normal" id="4273">
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
 	<roster>
 		<player name="Teylar"/>
 		<player name="Menoheel"/>

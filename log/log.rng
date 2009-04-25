@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         ns="http://cons.org.nz/~lorne/wow/raids/log">
+
+	<start>
+		<element name="raid" >
+			<attribute name="name"/>
+			<attribute name="id"/>
+			<attribute name="mode"/>
+			<ref name="roster"/>
+			<zeroOrMore>
+				<choice>
+					<ref name="initial-roll-in"/>
+					<ref name="roll-in"/>
+					<ref name="boss"/>
+					<ref name="trash"/>
+				</choice>
+			</zeroOrMore>
+			<element name="raid-end">
+				<text/>
+			</element>
+		</element>
+	</start>
+
+	<define name="roster">
+		<element name="roster">
+			<oneOrMore>
+				<element name="player">
+					<attribute name="name"/>
+				</element>
+			</oneOrMore>
+		</element>
+	</define>
+
+	<define name="initial-roll-in">
+		<element name="initial-roll-in">
+			<attribute name="list"/>
+			<oneOrMore>
+				<ref name="roll"/>
+			</oneOrMore>
+		</element>
+	</define>
+
+	<define name="roll-in">
+		<element name="roll-in">
+			<attribute name="list"/>
+			<oneOrMore>
+				<ref name="roll"/>
+			</oneOrMore>
+		</element>
+	</define>
+
+	<define name="roll">
+		<element name="roll">
+			<attribute name="player"/>
+			<attribute name="value"/>
+		</element>
+	</define>
+
+	<define name="boss">
+		<element name="boss">
+			<attribute name="name"/>
+			<attribute name="id"/>
+			<ref name="loot"/>
+		</element>
+	</define>
+
+	<define name="trash">
+		<element name="trash">
+			<ref name="loot"/>
+		</element>
+	</define>
+
+	<define name="loot">
+		<zeroOrMore>
+			<element name="loot">
+				<attribute name="name"/>
+				<attribute name="id"/>
+				<ref name="loot-dispatch"/>
+			</element>
+		</zeroOrMore>
+	</define>
+
+	<define name="loot-dispatch">
+		<choice>
+			<element name="assigned">
+				<attribute name="list"/>
+				<attribute name="player"/>
+			</element>
+			<element name="disenchanted">
+				<attribute name="player"/>
+			</element>
+			<element name="donated">
+				<attribute name="player"/>
+			</element>
+		</choice>
+	</define>
+
+</grammar>
