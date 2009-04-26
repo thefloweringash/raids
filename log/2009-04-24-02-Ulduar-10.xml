@@ -27,7 +27,7 @@
 			<assigned list="master" player="Menoheel"/>
 		</loot>
 		<loot name="Stormtempered Girdle" id="45304">
-			<assigned list="master" player="Steedee"/>
+			<donated player="Steedee"/>
 		</loot>
 	</boss>
 
@@ -43,7 +43,7 @@
 
 	<boss name="Kologarn" id="32930">
 		<loot name="Shoulderguards of the Solemn Watch" id="45697">
-			<assigned list="master" player="Steedee"/>
+			<donated player="Steedee"/>
 		</loot>
 		<loot name="Spark of Hope" id="45703">
 			<assigned list="master" player="Topos"/>
