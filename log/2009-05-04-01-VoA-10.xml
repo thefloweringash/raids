@@ -1,0 +1,26 @@
+<raid name="Vault of Archavon" mode="normal" id="4603"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Rejuvinaté"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Emalon the Stone Watcher" id="33993">
+		<loot name="Valorous Kirin Tor Gauntlets" id="46131">
+			<assigned player="Teylar" list="master" />
+		</loot>
+		<loot name="Deadly Gladiator's Satin Leggings" id="41926">
+			<donated player="Topos" />
+		</loot>
+	</boss>
+
+	<raid-end>Wheeeee!</raid-end>
+</raid>
