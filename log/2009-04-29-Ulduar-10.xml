@@ -1,0 +1,12 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Topos"/>
+		<player name="Schlee"/>
+	</roster>
+
+	<raid-end>There was no raid</raid-end>
+</raid>
