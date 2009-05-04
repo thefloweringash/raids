@@ -1,0 +1,53 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Rejuvinaté"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Pyrite Infuser" id="45286">
+			<assigned list="master" player="Morphism"/>
+		</loot>
+		<loot name="Firestrider Chestguard" id="45288">
+			<assigned list="master" player="Schlee"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Binding of the Dragon Matriarch" id="45306">
+			<assigned player="Goodiemania" list="master"/>
+		</loot>
+		<loot name="Band of Draconic Guilde" id="45303">
+			<assigned player="Menoheel" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Treacherous Shoulderpads" id="45677">
+			<donated player="Nurturing"/>
+		</loot>
+		<loot name="Helm of Veiled Energies" id="45687">
+			<donated player="Schlee"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Shoulderguards of the Solemn Watch" id="45697">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Greaves of the Earthbinder" id="45701">
+			<assigned list="master" player="Schlee"/>
+		</loot>
+	</boss>
+
+	<raid-end>To be continued...</raid-end>
+</raid>
