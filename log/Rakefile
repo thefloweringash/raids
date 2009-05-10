@@ -1,0 +1,15 @@
+publish_url = "n.gen.nz:/var/www/n.gen.nz/html/sk"
+all_files = "200*.xml"
+
+
+task :build do |t|
+  sh "ruby blog.rb #{all_files}"
+end
+
+task :publish => [:build] do |t|
+  sh "rsync -avp style.css *.html #{publish_url}"
+end
+
+task :current do |t|
+  sh "ruby show-list.rb #{all_files}"
+end
