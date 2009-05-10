@@ -1,0 +1,76 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Cinabar"/>
+		<player name="Kleene"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Getafixs"/>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Steedee"/>
+	</roster>
+
+	<!-- These were not used, rolled again -->
+	<!-- Tef: 80, geta: 59, cina: 64 -->
+	<roll-in list="master">
+		<roll player="Cinabar" value="10"/>
+		<roll player="Teflon" value="12"/>
+		<roll player="Getafixs" value="1"/>
+	</roll-in>
+
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Lifespark Visage" id="45289">
+			<assigned player="Kleene" list="master"/>
+		</loot>
+		<loot name="Might of the Leviathan" id="45285">
+			<assigned player="Teflon" list="master"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Kleene"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Getafixs"/>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+	</roster>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Dragonsteel Faceplate" id="45299">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Stormtempered Girdle" id="45304">
+			<donated player="Teflon"/>
+		</loot>
+	</boss>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Chestplate of Vicious Potency" id="45676">
+			<assigned list="master" player="Teflon"/>
+		</loot>
+		<loot name="Vest of the Glowing Crescent" id="45686">
+			<donated player="Morphism"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Spire of Withering Dreams" id="45695">
+			<assigned list="master" player="Morphism"/>
+		</loot>
+		<loot name="Shawl of the Shattered Giant" id="45704">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+	</boss>
+
+	<raid-end>We tried Ignis. He's much much easier but we're still
+	learning. Sleep and try tomorrow.</raid-end>
+</raid>
