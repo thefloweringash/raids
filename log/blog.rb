@@ -22,11 +22,22 @@ module Templates
   },nil,nil,'_erbout_raidstart')
   Roster = ERB.new(%q{
     <h2>Roster</h2>
-    <ul>
-      <% for p in actives %>
-        <li><%= p %></li>
-      <% end %>
-    </ul>
+    <% if old_actives.empty? %>
+      <ul>
+        <% for p in actives %>
+          <li><%= p %></li>
+        <% end %>
+      </ul>
+    <% else %>
+      <ul>
+        <% for p in old_actives.reject { |x| actives.include? x } %>
+          <li class="player_left"><%= p %></li>
+        <% end %>
+        <% for p in actives.reject { |x| old_actives.include? x } %>
+          <li class="player_joined"><%= p %></li>
+        <% end %>
+      </ul>
+    <% end %>
   },nil,nil,'_erbout_roster')
   InitialRollin = ERB.new(%q{
     <p>List <%= listname %> rolled in</p>
@@ -107,19 +118,20 @@ end
 
 
 lists = {}
-actives = []
 
 ARGV.each do |raidfile|
   raiddoc = REXML::Document.new(File.new(raidfile))
 
   event_stream = ""
   raid = raiddoc.elements[1]
+  actives = []
 
   event_stream << Templates::RaidStart.result(binding)
 
   raiddoc.elements.each("raid/*") do |event|
     case event.name
     when "roster"
+      old_actives = actives
       actives = []
       event.elements.each("player") do |p|
         actives << p.attributes["name"]

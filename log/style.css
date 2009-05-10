@@ -32,3 +32,11 @@ table.difflist td.inactive {
 table.difflist td.moved {
   background-color : black;
 }
+
+.player_left {
+  color : red;
+}
+
+.player_joined {
+  color : green;
+}
