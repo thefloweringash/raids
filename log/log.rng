@@ -14,6 +14,7 @@
 					<ref name="roll-in"/>
 					<ref name="boss"/>
 					<ref name="trash"/>
+					<ref name="roster"/>
 				</choice>
 			</zeroOrMore>
 			<element name="raid-end">
