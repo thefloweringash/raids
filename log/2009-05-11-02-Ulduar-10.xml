@@ -1,0 +1,41 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Steedee"/>
+		<player name="Kleene"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Rejuvinaté"/>
+		<player name="Schlee"/>
+	</roster>
+
+	<trash>
+		<loot name="Golemheart Longbow" id="46342">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</trash>
+
+	<boss name="Ignis the Furnace Master" id="33118">
+		<loot name="Armbraces of the Vibrant Flame" id="45316">
+			<assigned list="master" player="Schlee"/>
+		</loot>
+		<loot name="Gloves of the Smoldering Touch" id="45312">
+			<assigned list="master" player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Nurturing Touch" id="45713">
+			<assigned list="master" player="Kleene"/>
+		</loot>
+		<loot name="Ironaya's Discarded Mantle" id="45711">
+			<donated player="Schlee"/>
+		</loot>
+	</boss>
+
+	<raid-end>Sleep. What's that?</raid-end>
+</raid>
