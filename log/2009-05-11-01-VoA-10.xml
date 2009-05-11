@@ -1,0 +1,35 @@
+<raid name="Vault of Archavon" mode="normal" id="4603"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Aenaz"/>
+		<player name="Goodiemana"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Steedee"/>
+		<player name="Kleene"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Tsukuyomi"/>
+	</roster>
+
+	<boss name="Emalon the Stone Watcher" id="33993">
+		<loot name="Deadly Gladiator's Chain Gauntlets" id="41142">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Deadly Gladiator's Dragonhide Gloves" id="41772">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Archavon the Stone Watcher" id="31125">
+		<loot name="Hateful Gladiator's Satin Leggings" id="41925">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Heroes' Plagueheart Robe" id="39497">
+			<donated player="Kleene"/>
+		</loot>
+	</boss>
+
+	<raid-end>Wheeeee!</raid-end>
+</raid>
