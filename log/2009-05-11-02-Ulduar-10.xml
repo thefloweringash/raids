@@ -24,7 +24,7 @@
 			<assigned list="master" player="Schlee"/>
 		</loot>
 		<loot name="Gloves of the Smoldering Touch" id="45312">
-			<assigned list="master" player="Menoheel"/>
+			<donated player="Menoheel"/>
 		</loot>
 	</boss>
 
