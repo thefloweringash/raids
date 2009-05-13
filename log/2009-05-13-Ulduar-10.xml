@@ -1,0 +1,88 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Aenaz"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<roll-in list="master">
+		<roll player="Aenaz" value="4"/>
+	</roll-in>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Kinetic Ripper" id="45284">
+			<donated player="Schlee"/>
+		</loot>
+		<loot name="Firesoul" id="45287">
+			<assigned list="master" player="Aenaz"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Razorscale Talon" id="45298">
+			<donated player="Teflon"/>
+		</loot>
+		<loot name="Eye of the Broodmother" id="45308">
+			<assigned list="master" player="Teylar"/>
+		</loot>
+	</boss>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Power Enhancing Loop" id="45675">
+			<assigned list="master" player="Teflon"/>
+		</loot>
+		<loot name="Helm of Veiled Energies" id="45687">
+			<assigned list="master" player="Aenaz"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Rejuvinaté"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Pendant of Piercing Glare" id="45699">
+			<assigned list="master" player="Kleene"/>
+		</loot>
+		<loot name="Spark of Hope" id="45703">
+			<assigned list="master" player="Rejuvinaté"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Mantle of the Preserver" id="45832">
+			<assigned list="master" player="Topos"/>
+		</loot>
+		<loot name="Archaeda's Lost Legplates" id="45708">
+			<donated player="Teflon"/>
+		</loot>
+	</boss>
+
+	<boss name="Assembly of Iron" id="32857">
+		<loot name="Belt of the Iron Servant" id="45333">
+			<assigned player="Schlee" list="master"/>
+		</loot>
+		<loot name="Cloak of the Iron Council" id="45322">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+
+	<raid-end>New content down! Woooo!</raid-end>
+</raid>
