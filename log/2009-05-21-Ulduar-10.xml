@@ -1,0 +1,90 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Steedee"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Schlee"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Steedee"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Schlee"/>
+		<player name="Teflon"/>
+		<player name="Kleene"/>
+	</roster>
+
+	<!-- One Tower -->
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Combustion Bracers" id="45291">
+			<assigned list="master" player="Goodiemania"/>
+		</loot>
+		<loot name="Kinetic Ripper" id="45284">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Razorscale Talon" id="45298">
+			<donated player="Steedee"/>
+		</loot>
+		<loot name="Ironscale Leggings" id="45307">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Pillar of Fortitude" id="46350">
+			<assigned list="master" player="Nurturing"/>
+		</loot>
+	</trash>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Treacherous Shoulderpads" id="45677">
+			<assigned list="master" player="Menoheel"/>
+		</loot>
+		<loot name="Plasma Foil" id="45685">
+			<assigned list="master" player="Goodiemania"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Stoneguard" id="45700">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Mark of the Unyielding" id="45696">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Shieldwall of the Breaker" id="45707">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Mantle of the Preserver" id="45832">
+			<donated player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Leggings of the Wayward Protector" id="45651">
+			<assigned list="master" player="Schlee"/>
+		</loot>
+		<loot name="Cowl of Icy Breaths" id="45464">
+			<donated player="Topos"/>
+		</loot>
+	</boss>
+
+	<raid-end>New content down! T8! Woooo!</raid-end>
+</raid>
