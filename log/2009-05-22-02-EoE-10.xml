@@ -1,0 +1,29 @@
+<raid name="Eye of Eternity" mode="normal" id="4500"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Cinabar"/>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Onebone"/>
+		<player name="Topos"/>
+		<player name="Kalliste"/>
+		<player name="Kleene"/>
+		<player name="Morphism"/>
+		<player name="Schlee"/>
+		<player name="Teylar"/>
+	</roster>
+
+	<boss name="Malygos" id="28859">
+		<loot name="Ice Spire Scepter" id="40488">
+			<donated player="Morphism"/>
+		</loot>
+		<loot name="Hailstorm" id="40491">
+			<donated player="Cinabar"/>
+		</loot>
+	</boss>
+
+	<raid-end>
+		Bugged out the first time (wtf?). Second time's the
+		charm.
+	</raid-end>
+</raid>
