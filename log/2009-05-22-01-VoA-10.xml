@@ -1,0 +1,35 @@
+<raid name="Vault of Archavon" mode="normal" id="4603"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Cinabar"/>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Onebone"/>
+		<player name="Topos"/>
+		<player name="Kalliste"/>
+		<player name="Kleene"/>
+		<player name="Morphism"/>
+		<player name="Schlee"/>
+		<player name="Teylar"/>
+	</roster>
+
+	<boss name="Emalon the Stone Watcher" id="33993">
+		<loot name="Valorous Terrorblade Gauntlets" id="45397">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Deadly Gladiator's Pendant of Salvation" id="42033">
+			<donated player="Goodiemania"/>
+		</loot>
+	</boss>
+
+	<boss name="Archavon the Stone Watcher" id="31125">
+		<loot name="Heroe's Handwraps of Faith" id="39530">
+			<donated player="Onebone"/>
+		</loot>
+		<loot name="Hateful Gladiator's Scaled Guauntlets" id="40802">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<raid-end>Yawn.</raid-end>
+</raid>
