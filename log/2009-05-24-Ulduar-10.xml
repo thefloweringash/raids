@@ -1,0 +1,42 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Topos"/>
+		<player name="Crystalys"/>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+	</roster>
+
+	<rule-change id="rollin-to-place-in-active-list">
+		This rule says that new players shall be inserted relative to the
+		current list of active raiders. When there are n active, listed,
+		players in a raid, there are n+1 holes to which a new player may
+		be inserted. The new player shall roll from 1 to n+1 and will then
+		occupy that hole. The insertion with respect to the master list
+		will occur either immediately before the first active raider, or
+		immediately after the appropriate active raider.
+	</rule-change>
+
+	<roll-in list="master">
+		<roll player="Crystalys" value="7"/>
+	</roll-in>
+
+	<boss name="Freya" id="32906">
+		<loot name="Gloves of the Wayward Protector" id="45645">
+			<assigned list="master" player="Schlee"/>
+		</loot>
+		<loot name="Ironbark Faceguard" id="45935">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+
+	<raid-end>
+		Freya down. More Warrior/Hunter/Shaman. Grats Schlee!
+	</raid-end>
+</raid>
