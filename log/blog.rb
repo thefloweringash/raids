@@ -110,7 +110,7 @@ module Templates
     </ul>
   },nil,nil,'_erbout_loot')
 
-  Comment = ERB.new(%q{<%= event.text %>},nil,nil,'_erbout_comment')
+  Comment = ERB.new(%q{<%= <p>event.text</p> %>},nil,nil,'_erbout_comment')
   RaidEnd = ERB.new(%q{
     <p><strong>Raid Ended: </strong><%= event.text %></p>
   },nil,nil,'_erbout_raidend')
@@ -189,7 +189,7 @@ ARGV.each do |raidfile|
       event_stream << Templates::Rollin.result(binding)
     when "raid-end"
       event_stream << Templates::RaidEnd.result(binding)
-    when "Comment"
+    when "comment"
       event_stream << Templates::Comment.result(binding)
     when "rule-change"
       change_name = event.attributes["id"]
