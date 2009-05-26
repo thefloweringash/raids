@@ -4,6 +4,7 @@ require 'common'
 
 lists = {}
 actives = []
+seen_rule_changes = {}
 
 ARGV.each do |raidfile|
   raiddoc = REXML::Document.new(File.new(raidfile))
@@ -40,6 +41,17 @@ ARGV.each do |raidfile|
       event.elements.each("roll") do |m|
         list.insert(m.attributes["value"].to_i - 1, m.attributes["player"])
       end
+
+    when "rule-change"
+      change_name = event.attributes["id"]
+
+      if seen_rule_changes[change_name] then
+        raise "The same rule change happened twice: #{change_name}"
+      end
+      seen_rule_changes[change_name] = true
+
+      raise "Unknown rule change: #{change_name}"
+
     end
   end
 end

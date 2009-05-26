@@ -15,6 +15,7 @@
 					<ref name="boss"/>
 					<ref name="trash"/>
 					<ref name="roster"/>
+					<ref name="rule-change"/>
 				</choice>
 			</zeroOrMore>
 			<element name="raid-end">
@@ -95,6 +96,15 @@
 				<attribute name="player"/>
 			</element>
 		</choice>
+	</define>
+
+	<define name="rule-change">
+		<element name="rule-change">
+			<attribute name="id">
+				<text/>
+			</attribute>
+			<text/>
+		</element>
 	</define>
 
 </grammar>

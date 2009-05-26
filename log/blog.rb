@@ -114,10 +114,14 @@ module Templates
   RaidEnd = ERB.new(%q{
     <p><strong>Raid Ended: </strong><%= event.text %></p>
   },nil,nil,'_erbout_raidend')
+  RuleChange = ERB.new(%q{
+    <p><%= event.text %></p>
+  },nil,nil,'_erbout_rulechange');
 end
 
 
 lists = {}
+seen_rule_changes = {}
 
 ARGV.each do |raidfile|
   raiddoc = REXML::Document.new(File.new(raidfile))
@@ -189,6 +193,17 @@ ARGV.each do |raidfile|
       event_stream << Templates::RaidEnd.result(binding)
     when "Comment"
       event_stream << Templates::Comment.result(binding)
+    when "rule-change"
+      change_name = event.attributes["id"]
+
+      if seen_rule_changes[change_name] then
+        raise "The same rule change happened twice: #{change_name}"
+      end
+      seen_rule_changes[change_name] = true
+
+      raise "Unknown rule change: #{change_name}"
+
+      event_stream << Templates::RuleChange.result(binding)
     end
   end
   out = File.new(raidfile.sub('xml','html'), "w")
