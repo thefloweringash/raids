@@ -115,7 +115,8 @@ module Templates
     <p><strong>Raid Ended: </strong><%= event.text %></p>
   },nil,nil,'_erbout_raidend')
   RuleChange = ERB.new(%q{
-    <p><%= event.text %></p>
+    <p><strong>Rule change: <%= event.attributes["id"] %></strong>.
+       <%= event.text %></p>
   },nil,nil,'_erbout_rulechange');
 end
 
