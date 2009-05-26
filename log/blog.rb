@@ -129,6 +129,7 @@ ARGV.each do |raidfile|
   event_stream = ""
   raid = raiddoc.elements[1]
   actives = []
+  rollin_function = :rollin_initial
 
   event_stream << Templates::RaidStart.result(binding)
 
@@ -183,11 +184,8 @@ ARGV.each do |raidfile|
         event_stream << Templates::Drop.result(binding)
       end
     when "roll-in"
-      listname = event.attributes["list"]
-      list = lists[listname]
-      event.elements.each("roll") do |m|
-        list.insert(m.attributes["value"].to_i - 1, m.attributes["player"])
-      end
+      send(rollin_function, event, lists, actives)
+      list = lists[event.attributes["list"]]
       event_stream << Templates::Rollin.result(binding)
     when "raid-end"
       event_stream << Templates::RaidEnd.result(binding)
@@ -201,7 +199,12 @@ ARGV.each do |raidfile|
       end
       seen_rule_changes[change_name] = true
 
-      raise "Unknown rule change: #{change_name}"
+      case change_name
+      when "rollin-to-place-in-active-list"
+        rollin_function = :rollin_to_active_list
+      else
+        raise "Unknown rule change: #{change_name}"
+      end
 
       event_stream << Templates::RuleChange.result(binding)
     end

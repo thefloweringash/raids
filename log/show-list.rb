@@ -10,6 +10,7 @@ ARGV.each do |raidfile|
   raiddoc = REXML::Document.new(File.new(raidfile))
 
   raid = raiddoc.elements[1]
+  rollin_function = :rollin_initial
 
   raiddoc.elements.each("raid/*") do |event|
     case event.name
@@ -36,11 +37,7 @@ ARGV.each do |raidfile|
       end
 
     when "roll-in"
-      listname = event.attributes["list"]
-      list = lists[listname]
-      event.elements.each("roll") do |m|
-        list.insert(m.attributes["value"].to_i - 1, m.attributes["player"])
-      end
+      send(rollin_function, event, lists, actives)
 
     when "rule-change"
       change_name = event.attributes["id"]
@@ -50,8 +47,12 @@ ARGV.each do |raidfile|
       end
       seen_rule_changes[change_name] = true
 
-      raise "Unknown rule change: #{change_name}"
-
+      case change_name
+      when "rollin-to-place-in-active-list"
+        rollin_function = :rollin_to_active_list
+      else
+        raise "Unknown rule change: #{change_name}"
+      end
     end
   end
 end
