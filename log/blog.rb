@@ -123,6 +123,7 @@ end
 
 lists = {}
 seen_rule_changes = {}
+rollin_function = :rollin_initial
 
 ARGV.each do |raidfile|
   raiddoc = REXML::Document.new(File.new(raidfile))
@@ -130,7 +131,6 @@ ARGV.each do |raidfile|
   event_stream = ""
   raid = raiddoc.elements[1]
   actives = []
-  rollin_function = :rollin_initial
 
   event_stream << Templates::RaidStart.result(binding)
 

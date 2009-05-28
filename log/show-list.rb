@@ -5,12 +5,12 @@ require 'common'
 lists = {}
 actives = []
 seen_rule_changes = {}
+rollin_function = :rollin_initial
 
 ARGV.each do |raidfile|
   raiddoc = REXML::Document.new(File.new(raidfile))
 
   raid = raiddoc.elements[1]
-  rollin_function = :rollin_initial
 
   raiddoc.elements.each("raid/*") do |event|
     case event.name
