@@ -1,0 +1,39 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Nurturing"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Energy Siphon" id="45292">
+			<donated player="Schlee"/>
+		</loot>
+		<loot name="Ironsoul" id="45282">
+			<assigned list="master" player="Teflon"/>
+		</loot>
+	</boss>
+
+	<!-- todo: these were junked -->
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Helm of Veiled Energies" id="45687">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Armbands of the Construct" id="45680">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+
+	<raid-end>
+		Time. Never enough.
+	</raid-end>
+
+</raid>
