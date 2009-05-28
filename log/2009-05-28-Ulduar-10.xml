@@ -1,0 +1,63 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Topos"/>
+		<player name="Blackxmagic"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+	</roster>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Dragonsteel Faceplate" id="45299">
+			<assigned list="master" player="Teflon"/>
+		</loot>
+		<loot name="Stormtempered Girdle" id="45304">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+<!-- 	<trash> -->
+<!-- 		<loot name="Pillar of Fortitude" id="46350"> -->
+<!-- 			<assigned list="master" player="Nurturing"/> -->
+<!-- 		</loot> -->
+<!-- 	</trash> -->
+
+<!-- 	<boss name="XT-002 Deconstructor" id="33293"> -->
+<!-- 		<loot name="Treacherous Shoulderpads" id="45677"> -->
+<!-- 			<assigned list="master" player="Menoheel"/> -->
+<!-- 		</loot> -->
+<!-- 		<loot name="Plasma Foil" id="45685"> -->
+<!-- 			<assigned list="master" player="Goodiemania"/> -->
+<!-- 		</loot> -->
+<!-- 	</boss> -->
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Shawl of the Shattered Giant" id="45704">
+			<assigned list="master" player="Morphism"/>
+		</loot>
+		<loot name="Spire of Withering Dreams" id="45695">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<roll-in list="master">
+		<roll player="Blackxmagic" value="4"/>
+	</roll-in>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Archaedas' Lost Legplates" id="45708">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Raiments of the Corrupted" id="45865">
+			<assigned list="master" player="Goodiemania"/>
+		</loot>
+	</boss>
+
+	<raid-end>Umph.</raid-end>
+</raid>
