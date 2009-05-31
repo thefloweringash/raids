@@ -22,21 +22,6 @@
 		</loot>
 	</boss>
 
-<!-- 	<trash> -->
-<!-- 		<loot name="Pillar of Fortitude" id="46350"> -->
-<!-- 			<assigned list="master" player="Nurturing"/> -->
-<!-- 		</loot> -->
-<!-- 	</trash> -->
-
-<!-- 	<boss name="XT-002 Deconstructor" id="33293"> -->
-<!-- 		<loot name="Treacherous Shoulderpads" id="45677"> -->
-<!-- 			<assigned list="master" player="Menoheel"/> -->
-<!-- 		</loot> -->
-<!-- 		<loot name="Plasma Foil" id="45685"> -->
-<!-- 			<assigned list="master" player="Goodiemania"/> -->
-<!-- 		</loot> -->
-<!-- 	</boss> -->
-
 	<boss name="Kologarn" id="32930">
 		<loot name="Shawl of the Shattered Giant" id="45704">
 			<assigned list="master" player="Morphism"/>
