@@ -1,0 +1,58 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Crystalys"/>
+		<player name="Morphism"/>
+		<player name="Topos"/>
+	</roster>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Crystalys"/>
+		<player name="Morphism"/>
+		<player name="Topos"/>
+		<player name="Rejuvinaté"/>
+	</roster>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Steedee"/>
+		<player name="Crystalys"/>
+		<player name="Morphism"/>
+		<player name="Topos"/>
+		<player name="Rejuvinaté"/>
+		<player name="Nurturing"/>
+	</roster>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Leggings of the Wayward Protector" id="45651">
+			<donated player="Schlee"/>
+		</loot>
+		<loot name="Avalanche" id="45872">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="Freya" id="32906">
+		<loot name="Gloves of the Wayward Vanquisher" id="45646">
+			<assigned list="master" player="Menoheel"/>
+		</loot>
+		<loot name="Ironbark Faceguard" id="45935">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<raid-end>Thorim really is a pain</raid-end>
+</raid>
