@@ -1,0 +1,35 @@
+<raid name="Vault of Archavon" mode="normal" id="4603"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Nurturing"/>
+		<player name="Teflon"/>
+		<player name="Crystalys"/>
+		<player name="Schlee"/>
+		<player name="Kleene"/>
+		<player name="Topos"/>
+		<player name="Steedee"/>
+	</roster>
+
+	<boss name="Emalon the Stone Watcher" id="33993">
+		<loot name="Valorous Aegis Gauntlets" id="45376">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Deadly Gladiator's Wristguards of Salvation" id="41059">
+			<donated player="Schlee"/>
+		</loot>
+	</boss>
+
+	<boss name="Archavon the Stone Watcher" id="31125">
+		<loot name="Heroes' Plagueheart Robe" id="39497">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Hateful Gladiator's Plate Legguards" id="40840">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<raid-end>Steedee is now Epic!</raid-end>
+</raid>
