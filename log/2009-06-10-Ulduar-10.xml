@@ -1,0 +1,81 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Crystalys"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Topos"/>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Flamewatch Armguards" id="45283">
+			<donated player="Teflon"/>
+		</loot>
+		<loot name="Combustion Bracers" id="45291">
+			<assigned list="master" player="Kleene"/>
+		</loot>
+	</boss>
+
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Dragonsteel Faceplate" id="45299">
+			<disenchanted player="Kleene"/>
+		</loot>
+		<loot name="Stormtempered Girdle" id="45304">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Dreadplate"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Topos"/>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<boss name="Ignis the Furnace Master" id="33118">
+		<loot name="Armbraces of the Vibrant Flame" id="45316">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Furnace Stone" id="45313">
+			<assigned player="Morphism" list="master"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Dreadplate"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Topos"/>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Treacherous Shoulderpads" id="45677">
+			<donated player="Schlee"/>
+		</loot>
+		<loot name="Helm of Veiled Energies" id="45687">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+
+	<comment>Nerf Gravity Bombs! Nerf Engineering!</comment>
+
+	<raid-end>Hey-ya. Oooh ooh.</raid-end>
+</raid>
