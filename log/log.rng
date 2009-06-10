@@ -16,6 +16,7 @@
 					<ref name="trash"/>
 					<ref name="roster"/>
 					<ref name="rule-change"/>
+					<ref name="comment"/>
 				</choice>
 			</zeroOrMore>
 			<element name="raid-end">
@@ -107,4 +108,9 @@
 		</element>
 	</define>
 
+	<define name="comment">
+		<element name="comment">
+			<text/>
+		</element>
+	</define>
 </grammar>

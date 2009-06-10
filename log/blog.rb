@@ -110,7 +110,7 @@ module Templates
     </ul>
   },nil,nil,'_erbout_loot')
 
-  Comment = ERB.new(%q{<%= <p>event.text</p> %>},nil,nil,'_erbout_comment')
+  Comment = ERB.new(%q{<p><%= event.text %></p>},nil,nil,'_erbout_comment')
   RaidEnd = ERB.new(%q{
     <p><strong>Raid Ended: </strong><%= event.text %></p>
   },nil,nil,'_erbout_raidend')
