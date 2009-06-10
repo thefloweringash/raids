@@ -1,0 +1,21 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+		<roster>
+		<player name="Crystalys"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Schlee"/>
+		<player name="Topos"/>
+		<player name="Goodiemania"/>
+		<player name="Rejuvinaté"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<roll-in list="master">
+		<roll player="Sanguinary" value="7"/>
+	</roll-in>
+
+	<raid-end>Fudge list for roll in</raid-end>
+</raid>
