@@ -1,0 +1,89 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Crystalys"/>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Rejuvinaté"/>
+		<player name="Steedee"/>
+		<player name="Hexahedron"/>
+		<player name="Sanguinary"/>
+		<player name="Teflon"/>
+		<player name="Kalliste"/>
+	</roster>
+
+	<comment>Holy shit it's Hex!</comment>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Pendant of the Piercing Glare" id="45699">
+			<assigned player="Kalliste" list="master"/>
+		</loot>
+		<loot name="Emerald Signet Ring" id="45702">
+			<donated player="Hexahedron"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Archaeda's Lost Legplates" id="45708">
+			<donated player="Steedee"/>
+		</loot>
+		<loot name="Cover of the Keepers" id="45864">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Stormedge" id="45458">
+			<assigned player="Steedee" list="master"/>
+		</loot>
+		<loot name="Leggings of the Wayward Vanquisher" id="45652">
+			<assigned player="Crystalys" list="master"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Mimiron's Repeater" id="46339">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+	</trash>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Steedee"/>
+		<player name="Hexahedron"/>
+		<player name="Sanguinary"/>
+		<player name="Teflon"/>
+		<player name="Kalliste"/>
+		<player name="Kleene"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Freya" id="32906">
+		<loot name="Ironbark Faceguard" id="45935">
+			<donated player="Teflon"/>
+		</loot>
+		<loot name="Gloves of the Wayward Vanquisher" id="45646">
+			<assigned player="Teflon" list="master"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Drape of the Spellweaver" id="46341">
+			<assigned list="master" player="Goodiemania"/>
+		</loot>
+	</trash>
+
+	<boss name="Thorim" id="32865">
+		<loot name="Spaulders of the Wayward Conqueror" id="45659">
+			<assigned list="master" player="Topos"/>
+		</loot>
+		<loot name="Belt of the Blood Pit" id="45895">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+	</boss>
+
+	<raid-end>Mimi is going to get it next time!</raid-end>
+</raid>
