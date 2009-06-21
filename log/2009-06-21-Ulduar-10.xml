@@ -1,0 +1,39 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Rejuvinaté"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Sanguinary"/>
+		<player name="Schlee"/>
+		<player name="Topos"/>
+	</roster>
+
+	<trash>
+		<loot name="Pillar of Fortitude" id="46350">
+			<assigned list="master" player="Topos"/>
+		</loot>
+	</trash>
+
+	<boss name="Freya" id="32906">
+		<loot name="Gloves of the Wayward Vanqisher" id="45646">
+			<assigned list="master" player="Rejuvinaté"/>
+		</loot>
+		<loot name="Tunic of the Limber Stalker" id="45940">
+			<assigned list="master" player="Morphism"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Iceshear Mantle" id="46344">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</trash>
+
+	<raid-end>Progression is progression is progression.</raid-end>
+
+</raid>
