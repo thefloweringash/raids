@@ -1,0 +1,70 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Crystalys"/>
+		<player name="Morphism"/>
+		<player name="Recklessnes"  using-slot-of="Nurturing"/>
+		<player name="Rejuvinaté"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Might of the Leviathan" id="45285">
+			<assigned player="Recklessnes" list="master"/>
+		</loot>
+		<loot name="Combustion Bracers" id="45291">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Razorscale Talon" id="45298">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Breastplate of the Afterlife" id="45305">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+
+	<boss name="Ignis the Furnace Master" id="33118">
+		<loot name="Rifle of the Platinum Guard" id="45309">
+			<assigned list="master" player="Recklessnes"/>
+		</loot>
+		<loot name="Igniter Rod" id="45314">
+			<assigned list="master" player="Rejuvinaté"/>
+		</loot>
+	</boss>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Plasma Foil" id="45685">
+			<assigned list="master" player="Topos"/>
+		</loot>
+		<loot name="Gloves of Taut Grip" id="45679">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Sabatons of the Iron Watcher" id="45698">
+			<donated player="Steedee"/>
+		</loot>
+		<loot name="Spark of Hope" id="45703">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Cover of the Keepers" id="45864">
+			<donated player="Morphism"/>
+		</loot>
+		<loot name="Ironaya's Discarded Mantle" id="45711">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<raid-end>Hodir is a bit mean sometimes</raid-end>
+</raid>
