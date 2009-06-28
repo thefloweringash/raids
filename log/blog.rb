@@ -4,6 +4,14 @@ require 'rexml/document'
 require 'common'
 
 module Templates
+  def pp_player(lookaside, player)
+    if lookaside[player]
+      "#{lookaside[player]} (#{player})"
+    else
+      player
+    end
+  end
+  module_function :pp_player
   Page = ERB.new(%q{
     <html>
       <head>
@@ -25,16 +33,16 @@ module Templates
     <% if old_actives.empty? %>
       <ul>
         <% for p in actives %>
-          <li><%= p %></li>
+          <li><%= Templates::pp_player(lookaside_inverse, p) %></li>
         <% end %>
       </ul>
     <% else %>
       <ul>
         <% for p in old_actives.reject { |x| actives.include? x } %>
-          <li class="player_left"><%= p %></li>
+          <li class="player_left"><%= Templates::pp_player(lookaside_inverse, p) %></li>
         <% end %>
         <% for p in actives.reject { |x| old_actives.include? x } %>
-          <li class="player_joined"><%= p %></li>
+          <li class="player_joined"><%= Templates::pp_player(lookaside_inverse, p) %></li>
         <% end %>
       </ul>
     <% end %>
@@ -131,6 +139,8 @@ ARGV.each do |raidfile|
   event_stream = ""
   raid = raiddoc.elements[1]
   actives = []
+  lookaside = {}
+  lookaside_inverse = {}
 
   event_stream << Templates::RaidStart.result(binding)
 
@@ -140,7 +150,13 @@ ARGV.each do |raidfile|
       old_actives = actives
       actives = []
       event.elements.each("player") do |p|
-        actives << p.attributes["name"]
+        name = p.attributes["name"]
+        slot = p.attributes["using-slot-of"] || name
+        if slot != name
+          lookaside[name] = slot
+          lookaside_inverse[slot] = name
+        end
+        actives << slot
       end
       event_stream << Templates::Roster.result(binding)
 
@@ -170,7 +186,11 @@ ARGV.each do |raidfile|
             old_lists[listname] = list.clone
           end
 
-          suicide(actives, list, assignment.attributes["player"])
+          player = assignment.attributes["player"]
+          if lookaside[player]
+            player = lookaside[player]
+          end
+          suicide(actives, list, player)
         end
         l.elements.each("disenchanted") do |de|
           de_items << { :item => l, :de => de }

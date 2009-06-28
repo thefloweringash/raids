@@ -30,6 +30,9 @@
 			<oneOrMore>
 				<element name="player">
 					<attribute name="name"/>
+					<optional>
+						<attribute name="using-slot-of"/>
+					</optional>
 				</element>
 			</oneOrMore>
 		</element>

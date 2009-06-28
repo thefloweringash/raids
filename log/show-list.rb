@@ -4,6 +4,7 @@ require 'common'
 
 lists = {}
 actives = []
+lookaside = {}
 seen_rule_changes = {}
 rollin_function = :rollin_initial
 
@@ -17,7 +18,12 @@ ARGV.each do |raidfile|
     when "roster"
       actives = []
       event.elements.each("player") do |p|
-        actives << p.attributes["name"]
+        name = p.attributes["name"]
+        slot = p.attributes["using-slot-of"] || name
+        if slot != name
+          lookaside[name] = slot
+        end
+        actives << slot
       end
 
     when "initial-roll-in"
@@ -32,7 +38,11 @@ ARGV.each do |raidfile|
         l.elements.each("assigned") do |assignment|
           listname = assignment.attributes["list"]
           list = lists[listname]
-          suicide(actives, list, assignment.attributes["player"])
+          player = assignment.attributes["player"]
+          if lookaside[player]
+            player = lookaside[player]
+          end
+          suicide(actives, list, player)
         end
       end
 
