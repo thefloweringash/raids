@@ -50,7 +50,7 @@
 		<player name="Schlee"/>
 		<player name="Steedee"/>
 		<player name="Teflon"/>
-		<player name="Rejuvinaté"/>
+		<player name="Rejuvinatè"/>
 		<player name="Menoheel"/>
 		<player name="Morphism"/>
 		<player name="Teylar"/>
@@ -62,7 +62,7 @@
 			<assigned list="master" player="Kleene"/>
 		</loot>
 		<loot name="Spark of Hope" id="45703">
-			<assigned list="master" player="Rejuvinaté"/>
+			<assigned list="master" player="Rejuvinatè"/>
 		</loot>
 	</boss>
 

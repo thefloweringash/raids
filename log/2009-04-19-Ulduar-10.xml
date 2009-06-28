@@ -9,12 +9,12 @@
 		<player name="Schlee"/>
 		<player name="Morphism"/>
 		<player name="Steedee"/>
-		<player name="Rejuvinaté"/>
+		<player name="Rejuvinatè"/>
 		<player name="Nurturing"/>
 	</roster>
 
 	<roll-in list="master">
-		<roll player="Rejuvinaté" value="1"/>
+		<roll player="Rejuvinatè" value="1"/>
 		<roll player="Nurturing" value="2"/>
 	</roll-in>
 

@@ -3,7 +3,7 @@
 	<roster>
 		<player name="Goodiemania"/>
 		<player name="Morphism"/>
-		<player name="Rejuvinaté"/>
+		<player name="Rejuvinatè"/>
 		<player name="Steedee"/>
 		<player name="Teflon"/>
 		<player name="Kleene"/>
@@ -21,7 +21,7 @@
 
 	<boss name="Freya" id="32906">
 		<loot name="Gloves of the Wayward Vanqisher" id="45646">
-			<assigned list="master" player="Rejuvinaté"/>
+			<assigned list="master" player="Rejuvinatè"/>
 		</loot>
 		<loot name="Tunic of the Limber Stalker" id="45940">
 			<assigned list="master" player="Morphism"/>

@@ -8,7 +8,7 @@
 		<player name="Crystalys"/>
 		<player name="Morphism"/>
 		<player name="Recklessnes"  using-slot-of="Nurturing"/>
-		<player name="Rejuvinaté"/>
+		<player name="Rejuvinatè"/>
 		<player name="Topos"/>
 	</roster>
 
@@ -35,7 +35,7 @@
 			<assigned list="master" player="Recklessnes"/>
 		</loot>
 		<loot name="Igniter Rod" id="45314">
-			<assigned list="master" player="Rejuvinaté"/>
+			<assigned list="master" player="Rejuvinatè"/>
 		</loot>
 	</boss>
 
