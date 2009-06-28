@@ -1,0 +1,35 @@
+<raid name="Vault of Archavon" mode="normal" id="4603"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Ferter" using-slot-of="Menoheel"/>
+		<player name="Goodiemania"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Topos"/>
+		<player name="Honst"/>
+		<player name="Morphism"/>
+		<player name="Ratfoot"/>
+		<player name="Reevesy"/>
+		<player name="Teylar"/>
+	</roster>
+
+	<boss name="Emalon the Stone Watcher" id="33993">
+		<loot name="Deadly Gladiator's Belt of Dominance" id="41629">
+			<donated player="Morphism"/>
+		</loot>
+		<loot name="Deadly Gladiator's Treads of Dominance" id="41902">
+			<donated player="Ferter"/>
+		</loot>
+	</boss>
+
+	<boss name="Archavon the Stone Watcher" id="31125">
+		<loot name="Hateful Gladiator's Felweave Handguards" id="42015">
+			<disenchanted player="Ferter"/>
+		</loot>
+		<loot name="Heroes' Scourgeborne Battleplate" id="39617">
+			<disenchanted player="Ferter"/>
+		</loot>
+	</boss>
+
+	<raid-end>Bah. Voa.</raid-end>
+</raid>
