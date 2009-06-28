@@ -1,0 +1,58 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Recklessnes"  using-slot-of="Nurturing"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Crystalys"/>
+		<player name="Kleene"/>
+		<player name="Topos"/>
+		<player name="Sanguinary"/>
+		<player name="Obscenity"/>
+	</roster>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Recklessnes"  using-slot-of="Nurturing"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Crystalys"/>
+		<player name="Menoheel"/>
+		<player name="Topos"/>
+		<player name="Sanguinary"/>
+		<player name="Obscenity"/>
+	</roster>
+
+
+	<boss name="Hodir" id="32845">
+		<loot name="Stormedge" id="45458">
+			<assigned list="master" player="Recklessnes"/>
+		</loot>
+		<loot name="Leggings of the Wayward Conqueror" id="45650">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Iceshear Mantle" id="46344">
+			<donated player="Goodiemania"/>
+		</loot>
+	</trash>
+	<comment>Goodie rolled 52 against no one else.</comment>
+
+	<boss name="Thorim" id="32865">
+		<loot name="Spaulders of the Wayward Conqueror" id="45659">
+			<assigned list="master" player="Goodiemania"/>
+		</loot>
+		<loot name="Legacy of Thunder">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+	<comment>Std outrolled Reck</comment>
+
+
+	<raid-end>Raid composition fail.</raid-end>
+</raid>
