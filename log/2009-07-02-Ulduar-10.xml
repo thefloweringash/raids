@@ -1,0 +1,89 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Rejuvinatè"/>
+		<player name="Steedee"/>
+		<player name="Morphism"/>
+		<player name="Recklessnes" using-slot-of="Nurturing"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Combustion Bracers" id="45291">
+			<donated player="Rejuvinatè"/>
+		</loot>
+		<loot name="Flamewatch Armguards" id="45283">
+			<donated player="Recklessnes"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Band of Draconic Guilde" id="45303">
+			<assigned list="master" player="Recklessnes"/>
+		</loot>
+		<loot name="Binding of the Dragon Matriarch" id="45306">
+			<donated player="Topos"/>
+		</loot>
+	</boss>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Armbands of the Construct" id="45680">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Helm of Veiled Energies" id="45687">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Emerald Signet Ring" id="45702">
+			<assigned list="master" player="Kleene"/>
+		</loot>
+		<loot name="Sabatons of the Iron Watcher" id="45698">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Shieldwall of the Breaker" id="45707">
+			<donated player="Recklessnes"/>
+		</loot>
+		<loot name="Cover of the Keepers" id="45864">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Leggings of the Wayward Protector" id="45651">
+			<assigned list="master" player="Recklessnes"/>
+		</loot>
+		<loot name="Signet of Winter" id="45874">
+			<donated player="Steede"/>
+		</loot>
+	</boss>
+
+	<boss name="Thorim" id="32865">
+		<loot name="Spaulders of the Wayward Conqueror" id="45659">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Legacy of Thunder" id="45892">
+			<donated player="Recklessnes"/>
+		</loot>
+	</boss>
+
+	<boss name="Freya" id="32906">
+		<loot name="Gloves of the Wayward Protector" id="45645">
+			<assigned list="master" player="Recklessnes"/>
+		</loot>
+		<loot name="Chestguard of the Lasher" id="45941">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+</raid>
