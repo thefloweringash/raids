@@ -1,0 +1,156 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Schlee"/>
+		<player name="Menoheel"/>
+		<player name="Rejuvinatè"/>
+		<player name="Goodiemania"/>
+		<player name="Crystalys"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Kalliste"/>
+		<player name="Sanguinary"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Flamewatch Armguards" id="45283">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Lifespark Visage" id="45289">
+			<donated player="Kalliste"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Breastplate of the Afterlife" id="45305">
+			<donated player="Steedee"/>
+		</loot>
+		<loot name="Treads of the Invader" id="45302">
+			<donated player="Sanguinary"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Adamant Handguards" id="46340">
+			<donated player="Steedee"/>
+		</loot>
+	</trash>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Treacherous Shoulderpads" id="45677">
+			<donated player="Schlee"/>
+		</loot>
+		<loot name="Gloves of Taut Grip" id="45679">
+			<donated player="Schlee"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Shawl of the Shattered Giant" id="45704">
+			<assigned list="master" player="Steedee"/>
+		</loot>
+		<loot name="Shoulderguards of the Solemn Watch" id="45697">
+			<donated player="Teflon"/>
+		</loot>
+	</boss>
+	
+	<roster>
+		<player name="Schlee"/>
+		<player name="Menoheel"/>
+		<player name="Rejuvinatè"/>
+		<player name="Goodiemania"/>
+		<player name="Crystalys"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Kleene"/>
+		<player name="Sanguinary"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Chestplate of Titanic Fury" id="45712">
+			<assigned list="master" player="Teflon"/>
+		</loot>
+		<loot name="Raiments of the Corrupted" id="45865">
+			<assigned list="master" player="Kleene"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Schlee"/>
+		<player name="Menoheel"/>
+		<player name="Rejuvinatè"/>
+		<player name="Goodiemania"/>
+		<player name="Kalliste"/>
+		<player name="Steedee"/>
+		<player name="Teflon"/>
+		<player name="Kleene"/>
+		<player name="Sanguinary"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Mimiron" id="33350">
+		<loot name="Helm of the Wayward Conqueror" id="45647">
+			<assigned list="master" player="Topos"/>
+		</loot>
+		<loot name="Shoulderguards of Assimilation" id="45974">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Thorim" id="32865">
+		<loot name="Spaulders of the Wayward Vanquisher" id="45661">
+			<assigned list="master" player="Kalliste"/>
+		</loot>
+		<loot name="Belf of the Blood Pit" id="45895">
+			<donated player="Schlee"/>
+		</loot>
+	</boss>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Leggings of the Wayward Vanquisher" id="45652">
+			<assigned list="master" player="Sanguinary"/>
+		</loot>
+		<loot name="Avalanche" id="45872">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</boss>
+
+<!-- 	<comment>Oh gods please keep logs :S</comment> -->
+
+<!-- 	<boss name="Quick Hack"> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Kalliste"/> </loot> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Sanguinary"/> </loot> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Steedee"/> </loot> -->
+<!-- 	</boss> -->
+
+<!-- 		<player name="Kleene"/> -->
+
+
+<!-- 	<roster> -->
+<!-- 		<player name="Schlee"/> -->
+<!-- 		<player name="Menoheel"/> -->
+<!-- 		<player name="Rejuvinatè"/> -->
+<!-- 		<player name="Goodiemania"/> -->
+<!-- 		<player name="Crystalys"/> -->
+<!-- 		<player name="Steedee"/> -->
+<!-- 		<player name="Teflon"/> -->
+<!-- 		<player name="Kleene"/> -->
+<!-- 		<player name="Sanguinary"/> -->
+<!-- 		<player name="Topos"/> -->
+<!-- 	</roster> -->
+
+
+<!-- 	<boss name="Quick Hack"> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Topos"/> </loot> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Kalliste"/> </loot> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Sanguinary"/> </loot> -->
+<!-- 		<loot name="Fake"> <assigned list="master" player="Steedee"/> </loot> -->
+<!-- 	</boss> -->
+
+	<raid-end/>
+
+</raid>
+
+<!-- std, tef, kleene, toops, kall, sang,  -->
