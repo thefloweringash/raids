@@ -47,7 +47,7 @@
 		<loot name="Spaulders of the Wayward Conqueror" id="45659">
 			<assigned list="master" player="Goodiemania"/>
 		</loot>
-		<loot name="Legacy of Thunder">
+		<loot name="Legacy of Thunder" id="45892">
 			<donated player="Steedee"/>
 		</loot>
 	</boss>
