@@ -1,0 +1,59 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Morphism"/>
+		<player name="Menoheel"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Hexahedron"/>
+		<player name="Menoheel"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Mimiron" id="33350">
+		<loot name="Cable of the Metrognome" id="45975">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Helm of the Wayward Vanquisher" id="45649">
+			<assigned list="master" player="Teylar"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kalliste"/>
+		<player name="Morphism"/>
+		<player name="Menoheel"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Hexahedron"/>
+		<player name="Menoheel"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Ignis the Furnace Master" id="33118">
+		<loot name="Igniter's Rod" id="45314">
+			<assigned player="Goodiemania" list="master"/>
+		</loot>
+		<loot name="Gloves of the Smoldering Touch" id="45312">
+			<assigned player="Morphism" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="Assembly of Iron" id="32857">
+		<loot name="Circlet of True Sight" id="45329">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+		<loot name="Belt of the Iron Servant" id="45333">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+</raid>
