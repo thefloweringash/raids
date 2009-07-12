@@ -1,0 +1,45 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Hexahedron"/>
+		<player name="Menoheel"/>
+		<player name="Rejuvinatè"/>
+		<player name="Topos"/>
+		<player name="Crystalys"/>
+		<player name="Kleene"/>
+		<player name="Morphism"/>
+		<player name="Recklessnes" using-slot-of="Nurturing"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<comment>This list is not yet accurate. There are two nights
+	missing</comment>
+
+	<trash>
+		<loot name="Drape of the Spellweaver" id="46341">
+			<assigned list="master" player="Crystalys"/>
+		</loot>
+	</trash>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Eye of the Broodmother" id="45308">
+			<assigned player="Goodiemania" list="master"/>
+		</loot>
+		<loot name="Dragonsteel Faceplate" id="45299">
+			<assigned player="Recklessnes" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="Ignis the Furnace Master" id="33118">
+		<loot name="Furnace Stone" id="45313">
+			<assigned player="Menoheel" list="master"/>
+		</loot>
+		<loot name="Drape of Fuming Anger" id="45318">
+			<assigned player="Teflon" list="master"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+
+</raid>
