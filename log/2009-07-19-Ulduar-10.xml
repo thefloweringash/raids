@@ -1,0 +1,62 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Sanguinary"/>
+		<player name="Holyadin"/>
+		<player name="Recklessnes" using-slot-of="Nurturing"/>
+		<player name="Rejuvinatè"/>
+		<player name="Teflon"/>
+		<player name="Topos"/>
+	</roster>
+
+	<comment>This list is not yet accurate. There are still two nights
+	missing</comment>
+
+	<boss name="Freya" id="32906">
+		<loot name="Gloves of the Wayward Conqueror" id="45644">
+			<assigned list="master" player="Topos"/>
+		</loot>
+		<loot name="Unraveling Reach" id="45934">
+			<donated player="Kleene"/>
+		</loot>
+	</boss>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Signet of Winter" id="45874">
+			<assigned player="Holyadin" list="master"/>
+		</loot>
+		<loot name="Leggings of the Wayward Vanquisher" id="45652">
+			<assigned player="Morphism" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="Mimiron" id="33350">
+		<loot name="Helm of the Wayward Vanquisher" id="45649">
+			<assigned player="Morphism" list="master"/>
+		</loot>
+		<loot name="Cable of the Metrognome" id="45975">
+			<donated player="Holyadin"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Bloodcrush Cudgel" id="46351">
+			<disenchanted player="Kleene"/>
+		</loot>
+	</trash>
+
+	<boss name="General Vezax" id="33271">
+		<loot name="Choker of the Abyss" id="46008">
+			<donated player="Holyadin"/>
+		</loot>
+		<loot name="Pendant of Endless Despair" id="46015">
+			<donated player="Morphism"/>
+		</loot>
+	</boss>
+
+	<raid-end>Gave Yogg a few goes</raid-end>
+</raid>
