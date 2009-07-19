@@ -1,0 +1,100 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Crystalys"/>
+		<player name="Holyadin"/>
+		<player name="Recklessnes" using-slot-of="Nurturing"/>
+		<player name="Teylar"/>
+		<player name="Obscenity"/>
+	</roster>
+
+	<comment>This list is not yet accurate. There are still two nights
+	missing</comment>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Pyrite Infuser" id="45286">
+			<assigned player="Recklessnes" list="master"/>
+		</loot>
+		<loot name="Pattern: Belt of Arctic Life" id="45100">
+			<donated player="Obscenity"/>
+		</loot>
+		<loot name="Firestrider Chestguard" id="45288">
+			<donated player="Steedee"/>
+		</loot>
+	</boss>
+	<comment>That was +2!</comment>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Vest of the Glowing Crescent" id="45686">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Gloves of Taut Grip" id="45679">
+			<disenchanted player="Teylar"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Spark of Hope" id="45703">
+			<donated player="Obscenity"/>
+		</loot>
+		<loot name="Pendant of Piercing Glare" id="45699">
+			<donated player="Crystalys"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Nurturing Touch" id="45713">
+			<donated player="Crystalys"/>
+		</loot>
+		<loot name="Nimble Climber's Belt" id="45709">
+			<donated player="Obscenity"/>
+		</loot>
+	</boss>
+
+	<trash>
+		<loot name="Adamant Handguards" id="46340">
+			<assigned list="master" player="Holyadin"/>
+		</loot>
+	</trash>
+
+	<trash>
+		<loot name="Iceshear Mantle" id="46344">
+			<disenchanted player="Teylar"/>
+		</loot>
+	</trash>
+
+	<trash>
+		<loot name="Fervor of the Protectorate" id="46343">
+			<assigned player="Holyadin" list="master"/>
+		</loot>
+	</trash>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Morphism"/>
+		<player name="Sanguinary"/>
+		<player name="Topos"/>
+		<player name="Crystalys"/>
+		<player name="Holyadin"/>
+		<player name="Recklessnes" using-slot-of="Nurturing"/>
+		<player name="Teflon"/>
+		<player name="Obscenity"/>
+	</roster>
+
+	<boss name="Thorim" id="32865">
+		<loot name="Guise of the Midgard Serpent" id="45893">
+			<assigned player="Sanguinary" list="master"/>
+		</loot>
+		<loot name="Spaulders of the Wayward Protector" id="45660">
+			<assigned player="Recklessnes" list="master"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+</raid>
