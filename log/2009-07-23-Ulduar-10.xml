@@ -1,0 +1,69 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Holyadin"/>
+		<player name="Morphism"/>
+		<player name="Teflon"/>
+		<player name="Teylar"/>
+		<player name="Menoheel"/>
+		<player name="Recklessnes" using-slot-of="Nurturing"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Topos"/>
+	</roster>
+
+	<comment>This list is not yet accurate. There are still two nights
+	missing</comment>
+
+	<boss name="Flame Leviathan" id="33113">
+		<loot name="Ironsoul" id="45282">
+			<assigned player="Recklessness" list="master"/>
+		</loot>
+		<loot name="Pattern: Belt of Arctic Life" id="45100">
+			<donated player="Menoheel"/>
+		</loot>
+		<loot name="Combustion Bracers" id="45291">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+	<comment>That was +3!</comment>
+
+	<boss name="XT-002 Deconstructor" id="33293">
+		<loot name="Chestplate of Vicious Potency" id="45676">
+			<assigned player="Steedee" list="master"/>
+		</loot>
+		<loot name="Vest of the Glowing Crescent" id="45686">
+			<donated player="Menoheel"/>
+		</loot>
+	</boss>
+
+	<boss name="Kologarn" id="32930">
+		<loot name="Shawl of the Shattered Giant" id="45704">
+			<assigned player="Sanguinary" list="master"/>
+		</loot>
+		<loot name="Spire of Withering Dreams" id="45695">
+			<disenchanted player="Teylar"/>
+		</loot>
+	</boss>
+
+	<boss name="Auriaya" id="33515">
+		<loot name="Shieldwall of the Breaker" id="45707">
+			<disenchanted player="Teylar"/>
+		</loot>
+		<loot name="Elemental Focus Stone" id="45866">
+			<assigned list="master" player="Goodiemania"/>
+		</loot>
+	</boss>
+
+	<boss name="Hodir" id="32845">
+		<loot name="Avalanche" id="45872">
+			<disenchanted player="Teylar"/>
+		</loot>
+		<loot name="Leggings of the Wayward Vanquisher" id="45652">
+			<assigned player="Menoheel" list="master"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+</raid>
