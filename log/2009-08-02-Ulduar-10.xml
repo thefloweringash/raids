@@ -1,0 +1,70 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Teylar"/>
+		<player name="Hexahedron"/>
+		<player name="Morphism"/>
+		<player name="Pandemics"/>
+		<player name="Teflon"/>
+		<player name="Topos"/>
+	</roster>
+
+	<comment>This list is not yet accurate. There are still nights
+	missing</comment>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Band of Draconic Guile" id="45303">
+			<donated player="Morphism"/>
+		</loot>
+		<loot name="Breastplate of the Afterlife" id="45305">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+	</boss>
+
+	<boss name="Ignis the Furnace Master" id="33118">
+		<loot name="Pauldrons of Tempered Will" id="45321">
+			<donated player="Steedee"/>
+		</loot>
+		<loot name="Gloves of the Smoldering Touch" id="45312">
+			<donated player="Pandemics"/>
+		</loot>
+	</boss>
+
+	<roster>
+		<player name="Goodiemania"/>
+		<player name="Menoheel"/>
+		<player name="Sanguinary"/>
+		<player name="Steedee"/>
+		<player name="Teylar"/>
+		<player name="Hexahedron"/>
+		<player name="Morphism"/>
+		<player name="Obscenity"/>
+		<player name="Teflon"/>
+		<player name="Topos"/>
+	</roster>
+
+	<boss name="Mimiron" id="33350">
+		<loot name="Stylish Power Cape" id="45973">
+			<assigned player="Steedee" list="master"/>
+		</loot>
+		<loot name="Helm of the Wayward Conqueror" id="45647">
+			<assigned player="Hexahedron" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="General Vezax" id="33271">
+		<loot name="Hoperender" id="45996">
+			<donated player="Obscenity"/>
+		</loot>
+		<loot name="Shadowbite" id="46011">
+			<disenchanted player="Hexahedron"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+
+</raid>
