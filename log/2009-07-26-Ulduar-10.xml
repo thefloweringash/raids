@@ -1,0 +1,56 @@
+<raid name="Ulduar" mode="normal" id="4273"
+      xmlns="http://cons.org.nz/~lorne/wow/raids/log">
+	<roster>
+		<player name="Holyadin"/>
+		<player name="Kleene"/>
+		<player name="Menoheel"/>
+		<player name="Teylar"/>
+		<player name="Topos"/>
+		<player name="Goodiemania"/>
+		<player name="Morphism"/>
+		<player name="Obscenity"/>
+		<player name="Sanguinary"/>
+		<player name="Teflon"/>
+	</roster>
+
+	<comment>This list is not yet accurate. There are still two nights
+	missing</comment>
+
+	<boss name="Freya" id="32906">
+		<loot name="Ironbark Faceguard" id="45935">
+			<assigned player="Holyadin" list="master"/>
+		</loot>
+		<loot name="Gloves of the Wayward Protector" id="45645">
+			<!-- left to rot -->
+		</loot>
+	</boss>
+
+	<boss name="Thorim" id="32865">
+		<loot name="Guise of the Midgard Serpent" id="45893">
+			<assigned player="Menoheel" list="master"/>
+		</loot>
+		<loot name="Spaulders of the Wayward Vanquisher" id="45661">
+			<assigned player="Teflon" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="Mimiron" id="33350">
+		<loot name="Static Charge Handwraps" id="45976">
+			<donated player="Obscenity"/>
+		</loot>
+		<loot name="Helm of the Wayward Vanquisher" id="45649">
+			<assigned player="Obscenity" list="master"/>
+		</loot>
+	</boss>
+
+	<boss name="Razorscale" id="33186">
+		<loot name="Dragonsteel Faceplate" id="45299">
+			<donated player="Holyadin"/>
+		</loot>
+		<loot name="Breastplate of the Afterlife" id="45305">
+			<donated player="Holyadin"/>
+		</loot>
+	</boss>
+
+	<raid-end/>
+</raid>
